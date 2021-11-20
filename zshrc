@@ -15,9 +15,13 @@ PROMPT='
 
 # $PATH Variable
 # Add Homebrew (brew)
-eval "$(/opt/homebrew/bin/brew shellenv)"
+path=('/opt/homebrew/bin' $path)
 # Add Visual Studio Code (code)
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+path+=('/Applications/Visual Studio Code.app/Contents/Resources/app/bin')
+# Prevent duplicate values
+typeset -U path
+# export to sub-processes (make it inherited by child processes)
+export PATH
 
 # Functions
 function mkcd() {
