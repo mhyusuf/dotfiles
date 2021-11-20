@@ -1,13 +1,9 @@
-# Taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-
-# Brews
 brew "bat"
 brew "httpie"
-
-# Casks
+cask "1password"
 cask "dropbox"
 cask "firefox"
 cask "google-chrome"
