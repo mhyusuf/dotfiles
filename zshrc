@@ -10,6 +10,7 @@ PROMPT='
 %1~ %# '
 
 # $PATH Variable
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Functions
 function mkcd() {
@@ -19,5 +20,4 @@ function mkcd() {
 # ZSH Plugins
 
 # Other
-
 
