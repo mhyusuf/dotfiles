@@ -8,6 +8,9 @@
     ~/.zshrc: zshrc
     ~/.gitconfig: gitconfig
     ~/work/.gitconfig: gitconfig-work
+    ~/.config/bat:
+        create: true
+        path: config/bat
 
 - create:
     - ~/work
