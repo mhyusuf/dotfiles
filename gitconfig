@@ -1,0 +1,6 @@
+[user]
+	name = Mohamed Yusuf
+	email = 66272875+mhyusuf@users.noreply.github.com
+
+[includeIf "gitdir:~/work/"]
+	path = ~/work/.gitconfig
