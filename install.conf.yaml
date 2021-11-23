@@ -2,7 +2,7 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
     ~/.zshrc:
@@ -10,14 +10,16 @@
     ~/.gitconfig:
     ~/work/.gitconfig: gitconfig-work
     ~/.config/bat:
-        create: true
-        path: config/bat
+      create: true
+      path: config/bat
 
 - create:
     - ~/work
 
 - shell:
-    - 
-      command: ./setup_homebrew.zsh
+    - command: ./setup_homebrew.zsh
+      stdout: true
+      stderr: true
+    - command: ./setup_node.zsh
       stdout: true
       stderr: true
