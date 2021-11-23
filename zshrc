@@ -4,15 +4,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 export ANDROID_HOME=$HOME/Library/Android/sdk
-
-# ZSH Options
-
-# Aliases
-alias ls='ls -lAFg'
-
-# Prompt(s)
-PROMPT='
-%1~ %# '
+export ZSH="$HOME/.oh-my-zsh"
 
 # $PATH Variable
 typeset -U path
@@ -33,7 +25,13 @@ function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
 
+# ZSH Theme
+ZSH_THEME="robbyrussell"
+
 # ZSH Plugins
+plugins=(git)
 
-# Other
+# Aliases
+alias ls='ls -GlAFg'
 
+source $ZSH/oh-my-zsh.sh
