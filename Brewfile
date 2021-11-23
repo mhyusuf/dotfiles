@@ -6,6 +6,8 @@ tap "homebrew/core"
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Pager program similar to more
