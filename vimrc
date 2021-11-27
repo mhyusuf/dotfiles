@@ -24,6 +24,9 @@ filetype indent on
 " Turn syntax highlighting on.
 syntax on
 
+" Use new regular expression engine.
+set re=0
+
 " Add numbers to each line on the left-hand side.
 set number
 
@@ -96,6 +99,7 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 call plug#begin('~/.vim/plugged')
 
   Plug 'Raimondi/delimitMate'
+  Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
