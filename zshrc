@@ -32,6 +32,6 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 
 # Aliases
+source $ZSH/oh-my-zsh.sh
 alias ls='ls -GlAFg'
 
-source $ZSH/oh-my-zsh.sh

@@ -38,6 +38,8 @@ cask "insomnia"
 cask "mongodb-compass"
 # Team communication and collaboration software
 cask "slack"
+# Music streaming service
+cask "spotify"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
