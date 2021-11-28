@@ -13,7 +13,6 @@
       create: true
       path: config/bat
     ~/.vimrc:
-    ~/.vim:
 - create:
     - ~/work
 

@@ -2,9 +2,3 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
-[submodule "vim/plugged/delimitMate"]
-	path = vim/plugged/delimitMate
-	url = https://github.com/Raimondi/delimitMate
-[submodule "vim/plugged/vim-polyglot"]
-	path = vim/plugged/vim-polyglot
-	url = https://github.com/sheerun/vim-polyglot
