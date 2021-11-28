@@ -13,6 +13,7 @@
       create: true
       path: config/bat
     ~/.vimrc:
+    ~/.tmux.conf:
 - create:
     - ~/work
 

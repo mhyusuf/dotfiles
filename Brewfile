@@ -18,6 +18,8 @@ brew "mas"
 brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Terminal multiplexer
+brew "tmux"
 # Watch files and take action when they change
 brew "watchman"
 # Password manager that keeps all passwords secure behind one password
