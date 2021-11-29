@@ -100,6 +100,7 @@ call plug#begin('~/.vim/plugged')
 
   Plug 'Raimondi/delimitMate'
   Plug 'sheerun/vim-polyglot'
+  Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
 
