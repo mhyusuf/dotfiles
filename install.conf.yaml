@@ -12,7 +12,9 @@
     ~/.config/bat:
       create: true
       path: config/bat
-    ~/.vimrc:
+    ~/.config/nvim:
+      create: true
+      path: config/nvim
     ~/.tmux.conf:
 - create:
     - ~/work
