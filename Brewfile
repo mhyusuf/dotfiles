@@ -38,6 +38,8 @@ cask "firefox"
 cask "google-chrome"
 # HTTP and GraphQL Client
 cask "insomnia"
+# GPU-based terminal emulator
+cask "kitty"
 # Explore and manipulate your MongoDB data
 cask "mongodb-compass"
 # Team communication and collaboration software
