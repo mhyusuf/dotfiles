@@ -18,6 +18,8 @@ brew "mas"
 brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Terminal multiplexer
 brew "tmux"
 # Watch files and take action when they change
