@@ -12,3 +12,7 @@ else
     sudo ln -s $(which node) /usr/local/bin/node
   fi
 fi
+
+npm config set registry=https://registry.npmjs.org
+npm i -g neovim
+
