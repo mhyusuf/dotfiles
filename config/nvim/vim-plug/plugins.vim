@@ -17,5 +17,8 @@ call plug#begin()
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
+    "Themes
+    Plug 'joshdick/onedark.vim'
 
 call plug#end()
+
