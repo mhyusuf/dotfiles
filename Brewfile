@@ -21,8 +21,6 @@ brew "n"
 brew "nano"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# File browser
-brew "ranger"
 # Terminal multiplexer
 brew "tmux"
 # Watch files and take action when they change

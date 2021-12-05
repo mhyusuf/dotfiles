@@ -13,8 +13,6 @@ call plug#begin()
 
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
-    " File Explorer
-    Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Themes
@@ -24,6 +22,8 @@ call plug#begin()
     " Status Line
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    " Ranger
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
 call plug#end()
 
