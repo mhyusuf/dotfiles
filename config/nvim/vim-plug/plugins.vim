@@ -21,6 +21,9 @@ call plug#begin()
     Plug 'joshdick/onedark.vim'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Status Line
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
