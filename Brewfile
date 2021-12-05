@@ -1,6 +1,7 @@
 tap "adoptopenjdk/openjdk"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 # Official Amazon AWS command-line interface
 brew "awscli"
@@ -20,6 +21,8 @@ brew "n"
 brew "nano"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# File browser
+brew "ranger"
 # Terminal multiplexer
 brew "tmux"
 # Watch files and take action when they change
@@ -34,6 +37,7 @@ cask "android-studio"
 cask "dropbox"
 # Web browser
 cask "firefox"
+cask "font-fira-code"
 # Web browser
 cask "google-chrome"
 # HTTP and GraphQL Client
