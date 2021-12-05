@@ -35,3 +35,5 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 alias ls='ls -GlAFg'
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
