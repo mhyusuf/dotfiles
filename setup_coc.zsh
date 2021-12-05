@@ -15,5 +15,5 @@ fi
 
 # Change extension names to the extensions you need
 npm config set registry=https://registry.npmjs.org
-npm install --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod coc-snippets coc-tsserver coc-html coc-html coc-css coc-json coc-prettier
+npm install --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod coc-snippets coc-tsserver coc-html coc-html coc-css coc-json coc-prettier coc-explorer
 
