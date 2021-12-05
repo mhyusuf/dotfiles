@@ -18,6 +18,9 @@
     ~/.config/nvim:
       create: true
       path: config/nvim
+    ~/.config/ranger:
+      create: true
+      path: config/ranger
     ~/.tmux.conf:
 - create:
     - ~/work
@@ -32,4 +35,3 @@
     - command: ./setup_coc.zsh
       stdout: true
       stderr: true
-
