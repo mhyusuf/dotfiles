@@ -55,6 +55,8 @@ cask "insomnia"
 cask "kitty"
 # Explore and manipulate your MongoDB data
 cask "mongodb-compass"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
 # Team communication and collaboration software
 cask "slack"
 # Music streaming service
