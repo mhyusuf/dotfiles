@@ -51,6 +51,8 @@ cask "font-fira-code"
 cask "google-chrome"
 # HTTP and GraphQL Client
 cask "insomnia"
+# Interface for reading and syncing eBooks
+cask "kindle"
 # GPU-based terminal emulator
 cask "kitty"
 # Explore and manipulate your MongoDB data
