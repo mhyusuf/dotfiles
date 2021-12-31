@@ -1,12 +1,18 @@
 #! /usr/bin/env zsh
 
-echo "\n<<< Starting Homebrew Setup >>>\n"
+if [[ `uname` == "Darwin" ]]; then
 
-if exists brew; then
+  echo "\n<<< Starting Homebrew Setup >>>\n"
+
+  if exists brew; then
   echo "brew exists, skipping install"
-else
+  else
   echo "brew doesn't exist, continuing with install"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-fi
+  fi
 
-brew bundle --verbose
+  brew bundle --verbose
+
+else
+  echo "\n<<< Skipping Homebrew Setup - not running MacOS >>>\n"
+fi

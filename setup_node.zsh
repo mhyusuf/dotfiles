@@ -14,5 +14,6 @@ else
 fi
 
 npm config set registry=https://registry.npmjs.org
+npm i -g n
 npm i -g neovim
 npm i -g typescript
