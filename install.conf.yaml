@@ -22,7 +22,6 @@
       create: true
       path: config/ranger
     ~/.tmux.conf:
-    ~/.fzf.zsh:
 - create:
     - ~/work
 

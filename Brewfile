@@ -3,6 +3,7 @@ tap "clojure/tools"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
+tap "homebrew/command-not-found"
 tap "homebrew/core"
 tap "universal-ctags/universal-ctags"
 # Interpreted, interactive, object-oriented programming language
@@ -23,6 +24,14 @@ brew "erlang"
 brew "elixir"
 # Collection of reusable C++ library artifacts developed at Facebook
 brew "folly"
+# C++14 implementation of the TLS-1.3 standard
+brew "fizz"
+# Modular, composable client/server abstractions framework
+brew "wangle"
+# Facebook's branch of Apache Thrift, including a new C++ server
+brew "fbthrift"
+# Thrift functions for querying information from a service
+brew "fb303"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Command-line fuzzy finder written in Go
@@ -51,6 +60,8 @@ brew "the_silver_searcher"
 brew "tmux"
 # Watch files and take action when they change
 brew "watchman"
+# Additional completion definitions for zsh
+brew "zsh-completions"
 # The Clojure Programming Language
 brew "clojure/tools/clojure"
 # Maintained ctags implementation
@@ -66,10 +77,13 @@ cask "dropbox"
 # Web browser
 cask "firefox"
 cask "font-fira-code"
+cask "font-hack-nerd-font"
 # Web browser
 cask "google-chrome"
 # HTTP and GraphQL Client
 cask "insomnia"
+# Password manager app
+cask "keepassxc"
 # Interface for reading and syncing eBooks
 cask "kindle"
 # GPU-based terminal emulator
